@@ -1,0 +1,32 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/* Importing Components */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/sidebar.css");
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Change to Roboto font */
+  color: rgb(61, 59, 64); /* Darken text color for better contrast */
+  font-size: 16px; /* Slightly reduce font size for better readability */
+  margin: 0; /* Simplify margin */
+}
+
+h1, h2, h3 {
+  font-weight: bold; /* Remove font family declaration */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(61, 59, 64); /* Change link color to a complementary shade */
+}
+
+footer {
+  text-align: center;
+  font-size: 14px; /* Increase footer font size for better visibility */
+  color: #777; /* Lighten footer text color for better contrast */
+}

@@ -1,0 +1,16 @@
+.btn-purple {
+  background-color: rgb(229, 221, 197);
+  color: rgb(61, 59, 64);
+  padding: 15px 30px; /* Adjust padding for better button size */
+  border-radius: 5px;
+  margin-top: 10px; /* Reduce margin-top for better spacing */
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif; /* Use Times New Roman with fallback */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+}
+
+.btn-purple:hover {
+  background-color: rgb(96, 114, 116);
+  color:rgb(229, 221, 197);
+  font-size: 19px; /* Increase font size on hover for emphasis */
+}
